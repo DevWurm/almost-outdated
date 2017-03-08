@@ -1,0 +1,24 @@
+{
+  "name": "almost-outdated",
+  "version": "1.0.0-beta.1",
+  "description": "almost-outdated shows outdated, as well as almost outdated packages in your Yarn project by consigering the 'next' version tag.",
+  "main": "dist/almost-outdated.js",
+  "repository": "https://github.com/DevWurm/almost-outdated",
+  "author": "DevWurm",
+  "license": "MIT",
+  "scripts": {
+    "prebuild": "yarn run clean",
+    "build": "tsc",
+    "clean": "rimraf dist"
+  },
+  "devDependencies": {
+    "@types/commander": "^2.3.31",
+    "@types/node": "^7.0.5",
+    "rimraf": "^2.6.1",
+    "typescript": "^2.2.1"
+  },
+  "dependencies": {
+    "commander": "^2.9.0",
+    "yarn": "^0.21.3"
+  }
+}
