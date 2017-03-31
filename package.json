@@ -18,6 +18,8 @@
     "typescript": "^2.2.1"
   },
   "dependencies": {
+    "read-package-json": "^2.0.5",
+    "read-package-tree": "^5.1.5",
     "yargs": "^7.0.2",
     "yarn": "^0.21.3"
   }
